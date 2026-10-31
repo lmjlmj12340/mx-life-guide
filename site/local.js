@@ -1,0 +1,1 @@
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(/登录|同步/.test(b.textContent))alert('此独立版本尚未配置账号同步。');});
