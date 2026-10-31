@@ -1,0 +1,47 @@
+# HowToLiveBetter｜高性价比人生指南
+
+> 把有出处的生活建议，变成能比较、能执行、能持续回看的选择。
+
+HowToLiveBetter 是开源书《高性价比人生指南》的独立阅读与行动网站。面对健康、工作、金钱、家庭、出行和突发事件，难的往往不是找到一句建议，而是判断它是否适合自己、代价是什么、依据是否可靠、现在该先做哪一步。本站把行动建议和判断依据放在一起，帮助读者用有限的钱、时间和精力少踩坑，先处理更值得做的事。本站不是原作者的官方网站。
+
+当前书籍收录 34 章、767 条建议。每条保留要做什么、成本、收益、证据等级、原始出处和作者备注；另有 11 篇专题长文与 42 条术语解释。不必从头读完或完成所有条目：从眼下的问题出发，读懂依据，挑一两件适合自己的事，之后再回来更新判断和进度。
+
+## 找到适合自己的建议
+
+- [网站首页](https://howtolivebetter.net/)：了解这本指南如何把来源、成本、收益和行动连接起来。
+- [全书目录与搜索](https://howtolivebetter.net/book)：按主题或关键词找问题，比较建议的成本、收益和证据，再进入章节阅读完整说明与引用。
+- [人生体检](https://howtolivebetter.net/checkup)：回答 5 个问题，从书中挑选当前最值得先看的 10 件事；这是阅读路线，不是医疗诊断或个人风险评估。
+- [精选 50 条](https://howtolivebetter.net/top-50)：从低成本、有证据支持且容易着手的建议开始，逐项决定已做到、待做或暂不考虑。
+
+## 把阅读变成行动
+
+阅读时可以标记「已做到」「加入待做」，也可以收藏条目、写下私人备注；个人清单按主题显示标记进度。进度分只反映清单状态，不评价一个人的健康、财富或生活质量。
+
+- [每日任务](https://howtolivebetter.net/daily)：抽取一件 1–5 分钟、无需花钱的小行动，完成后记录当天的打卡。
+- [零元行动九宫格](https://howtolivebetter.net/bingo)：挑选适合自己的小事，做一件点亮一格，也可以分享进度卡。
+- [避坑检测](https://howtolivebetter.net/quiz)：用日常情境题辨认常见误区，查看答案、解释和来源；分数仅反映本次答题。
+
+## 深入阅读与离线使用
+
+- [专题长文](https://howtolivebetter.net/articles)：把分散在多章的建议串成一个完整问题，例如慢性病确诊、孩子出生、失业、婚姻或家庭应急。
+- [术语表](https://howtolivebetter.net/glossary)：解释研究、医疗、法律与生活决策中容易误解的词。
+- [PDF 与 EPUB 领取页](https://howtolivebetter.net/book/download)：扫码关注公众号即可在公众号获取下载链接；向公众号发送页面上的一次性短口令后，原网页也会显示下载链接。离线版本涵盖六种语言，点击条目可回到网站查看完整解释与来源。
+
+## 给 AI 和 Agent 的公开阅读入口
+
+下列 Markdown 与网站发布内容同步，按目录、章节和条目拆分，方便只读取相关部分。条目文件包含成本、收益、证据等级、作者备注和原始来源；引用具体建议时，请附上对应的网站条目链接与来源，不要仅凭标题推断结论。公开文件不包含用户的清单、备注或账户资料。
+
+- [中文全书目录](https://howtolivebetter.net/ai/book/zh/index.md)：先定位主题，再进入章节目录与对应条目正文。
+- [中文专题文章目录](https://howtolivebetter.net/ai/articles/zh/index.md)：查找长文及其完整 Markdown。
+- [中文术语表 Markdown](https://howtolivebetter.net/ai/glossary/zh.md)：直接读取术语释义。
+- [完整阅读文件](https://howtolivebetter.net/llms-full.txt)：连续收录中文和英文书籍正文及术语，文件较大；按问题读取时优先使用上面的分册。
+- [HowToLiveBetter Agent Skill](https://howtolivebetter.net/skills/howtolivebetter/SKILL.md)：让 Agent 按主题查找条目、核对证据与出处，并链接到阅读页。
+- 其他语言的机器可读目录：[English](https://howtolivebetter.net/ai/book/en/index.md) · [Español](https://howtolivebetter.net/ai/book/es/index.md) · [Русский](https://howtolivebetter.net/ai/book/ru/index.md) · [日本語](https://howtolivebetter.net/ai/book/ja/index.md) · [Tiếng Việt](https://howtolivebetter.net/ai/book/vi/index.md)。译文可能包含机器辅助内容，重要结论请核对中文原文。
+
+## 来源与使用边界
+
+- [原作者与最新中文原文](https://github.com/eternity4719/HowToLiveBetter)：原书由 eternity4719 维护；最新修订以作者仓库为准。
+- [本站使用的书籍版本](https://github.com/eternity4719/HowToLiveBetter/commit/e2605d3e2242bd6216c9255192b8a8957a08c55a) · [专题文章版本](https://github.com/eternity4719/HowToLiveBetter/commit/e2605d3e2242bd6216c9255192b8a8957a08c55a)：便于核对本站内容所依据的快照。
+- [内容许可](https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/LICENSE)：原书采用 CC BY 4.0；引用时请保留作者和来源。
+
+证据等级表达原书对依据的归类，不保证建议适用于每个人。医疗、法律、财务和政策相关内容，应结合个人情况、当地规则及当前的一手来源核对；必要时咨询专业人士。
