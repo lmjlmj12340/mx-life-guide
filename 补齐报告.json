@@ -1,0 +1,18 @@
+{
+  "routes": 60,
+  "assets": 81,
+  "fail": [
+    "/sign-in: fetch failed",
+    "/quiz: The operation was aborted due to timeout",
+    "/value/food: The operation was aborted due to timeout",
+    "/value/ai: The operation was aborted due to timeout",
+    "/book/23: The operation was aborted due to timeout",
+    "/privacy-policy: fetch failed",
+    "/images/book-chapters/10-relationships-editorial-thumb.webp: The operation was aborted due to timeout",
+    "/images/book-chapters/11-developer-editorial.webp: The operation was aborted due to timeout",
+    "/images/book-chapters/18-parenting-costs-editorial.webp: The operation was aborted due to timeout",
+    "/images/book-chapters/19-work-rights-editorial.webp: The operation was aborted due to timeout",
+    "/images/book-chapters/31-adult-paths-editorial.webp: fetch failed",
+    "/images/book-chapters/06-counterlist-comic-thumb.webp: The operation was aborted due to timeout"
+  ]
+}
