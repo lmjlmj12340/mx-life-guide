@@ -289,3 +289,15 @@
     }
   }
 })();
+
+(() => {
+  const route = location.pathname.replace(/\/$/, '');
+  if (!['/pomodoro', '/meditation'].includes(route)) return;
+  for (const button of document.querySelectorAll('main button')) {
+    const text = button.textContent.trim();
+    if (/^(\u5f00\u59cb\u4e13\u6ce8|\u5f00\u59cb\u7ec3\u4e60)$/.test(text)) {
+      button.disabled = false;
+      button.removeAttribute('aria-disabled');
+    }
+  }
+})();
