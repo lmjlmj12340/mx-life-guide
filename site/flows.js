@@ -112,7 +112,7 @@
         const rows = Object.entries(read(marksKey, {})).map(([id, m]) => [id, m.title, m.status, m.favorite, m.note].map(field).join(','));
         download('我的清单.csv', new Blob(['\uFEFF编号,标题,状态,收藏,备注\r\n' + rows.join('\r\n')], {type:'text/csv;charset=utf-8'}));
       };
-      filters.append(button('导出 CSV', exportCSV));
+
       for (const existing of main.querySelectorAll('button')) {
         const label = existing.textContent.trim();
         const mapped = [['我的条目',''],['已做到','done'],['待做','todo'],['已忽略','ignored'],['收藏','favorite']].find(([name]) => label.startsWith(name));
@@ -278,4 +278,14 @@
     });
   }
   paint();
+})();
+
+(() => {
+  if (location.pathname.replace(/\/$/, '') !== '/daily') return;
+  for (const button of document.querySelectorAll('button')) {
+    if (button.textContent.trim() === '\u62bd\u53d6\u4eca\u5929\u7684\u4efb\u52a1') {
+      button.disabled = false;
+      button.removeAttribute('aria-disabled');
+    }
+  }
 })();
