@@ -70,13 +70,16 @@
     results.setAttribute('aria-live', 'polite');
     box.append(input, results);
     main.prepend(box);
+    entries().catch(() => {});
     input.addEventListener('input', async () => {
       const query = input.value.trim().toLowerCase();
       results.replaceChildren();
       if (!query) return;
+      results.append(make('li', '\u6b63\u5728\u641c\u7d22\u2026'));
       try {
         const list = await entries();
         if (query !== input.value.trim().toLowerCase()) return;
+        results.replaceChildren();
         const matches = list.filter(item => item.title.toLowerCase().includes(query));
         results.append(...matches.slice(0, 50).map(item => {
           const row = make('li');
