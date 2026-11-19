@@ -53,7 +53,10 @@
   }
   function mark(items, status) {
     const marks = read(marksKey, {});
-    for (const item of items) marks[item.id] = { ...marks[item.id], ...item, status };
+    for (const item of items) {
+      if (status === 'todo' && marks[item.id]?.status === 'done') continue;
+      marks[item.id] = { ...marks[item.id], ...item, status };
+    }
     write(marksKey, marks);
   }
 
